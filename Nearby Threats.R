@@ -14,7 +14,7 @@ centroid <- data.frame('x' = x, 'y' = y)
 library(ggplot2)
 
 # Set the working directory (will need to change the path specific to where you downloaded the file on your machine)
-setwd('/users/duncanmcconnell/Documents/Travian/US1 STARFU/Nearby Threats')
+setwd('')
 
 # Import file with no cleaning
 dat <- read.csv("map.sql", sep=',', fill=TRUE, quote='', col.names = c('id', 'x', 'y', 'tid', 'vid', 'villageName', 'uid', 'playerName', 'aid', 'allianceName', 'population'))
